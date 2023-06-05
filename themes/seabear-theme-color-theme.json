@@ -50,11 +50,11 @@
     "editor.findMatchBorder": "#bcb28d66",
     //sideBar
     "sideBar.background": "#1f2023",
-    "sideBar.border": "#1F2023",
+    "sideBar.border": "#26272b",
     "sideBar.foreground": "#707C74",
-    "sideBarSectionHeader.background": "#1f2023",
-    "sideBarSectionHeader.foreground": "#5e5a4d",
-    "sideBarTitle.foreground": "#5e5a4d",
+    "sideBarSectionHeader.background": "#26272b",
+    "sideBarSectionHeader.foreground": "#7f7862",
+    "sideBarTitle.foreground": "#7f7862",
     "scrollbar.shadow": "#1F2023",
     // statusBar
     "statusBar.background": "#1f2023",
@@ -74,6 +74,9 @@
     "tab.border": "#1F2023",
     // panel
     "panel.background": "#26272b",
+    "panel.border": "#1F2023",
+    "panelTitle.activeForeground": "#8dbca4",
+    "panelTitle.inactiveForeground": "#8dbca4aa",
     // activityBar
     "activityBar.background": "#1F2023",
     "activityBar.border": "#1F2023",
@@ -103,6 +106,7 @@
     // editorWidget
     "editorWidget.border": "#555",
     "editorWidget.background": "#27282c",
+    "editorWidget.foreground": "#8dbca4aa",
     "editorSuggestWidget.selectedBackground": "#243d46",
     // editorBracketMatch
     "editorBracketMatch.background": "#ffffff00",
@@ -112,7 +116,11 @@
     // menu
     "menu.background": "#26272b",
     "menu.foreground": "#8dbca4aa",
-    "widget.shadow": "#000000aa"
+    // button
+    "button.background": "#243d46",
+    "button.foreground": "#857b55",
+    // processbar
+    "progressBar.background": "#243d46aa"
   },
   "tokenColors": [
     {
@@ -128,16 +136,22 @@
       }
     },
     {
-      "scope": "comment",
+      "scope": ["comment", "punctuation.definition.comment", "string.comment"],
       "settings": {
         "foreground": "#707C74",
         "fontStyle": "italic"
       }
     },
     {
-      "scope": "constant",
+      "scope": ["constant", "variable.language"],
       "settings": {
         "foreground": "#58dccd"
+      }
+    },
+    {
+      "scope": ["constant.other.placeholder", "constant.character"],
+      "settings": {
+        "foreground": "#db1369"
       }
     },
     {

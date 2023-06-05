@@ -1,8 +1,14 @@
 {
   "name": "seabear-theme",
-  "displayName": "SeaBear-theme",
+  "displayName": "SeaBear Theme",
   "description": "",
-  "version": "0.0.1",
+  "version": "0.0.2",
+  "Category": "Themes",
+  "publisher": "akirco",
+  "icon": "icebear.ico",
+  "repository": {
+    "url": "https://github.com/akirco/seaBear-theme"
+  },
   "engines": {
     "vscode": "^1.78.0"
   },
