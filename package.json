@@ -1,8 +1,8 @@
 {
   "name": "seabear-theme",
   "displayName": "SeaBear Theme",
-  "description": "",
-  "version": "0.0.2",
+  "description": "A nice dark theme",
+  "version": "0.0.3",
   "Category": "Themes",
   "publisher": "akirco",
   "icon": "icebear.ico",

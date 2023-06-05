@@ -8,7 +8,7 @@
     "descriptionForeground": "#8dbca4",
     "errorForeground": "#00b4d8",
     "icon.foreground": "#8dbca4",
-    "sash.hoverBorder": "#27282c",
+    "sash.hoverBorder": "#8dbca4aa",
     // terminal
     "terminal.ansiBlue": "#db1369",
     "terminal.ansiBrightBlue": "#db1369",
@@ -75,6 +75,7 @@
     // panel
     "panel.background": "#26272b",
     "panel.border": "#1F2023",
+
     "panelTitle.activeForeground": "#8dbca4",
     "panelTitle.inactiveForeground": "#8dbca4aa",
     // activityBar
@@ -86,7 +87,7 @@
     "titleBar.activeBackground": "#27282c",
     "titleBar.activeForeground": "#8dbca4",
     "titleBar.inactiveBackground": "#31343c",
-    "titleBar.inactiveForeground": "#707C74",
+    "titleBar.inactiveForeground": "#8dbca4aa",
     // list
     "list.hoverBackground": "#27282c",
     "list.focusBackground": "#243d46",
@@ -100,9 +101,13 @@
     "list.hoverForeground": "#8dbca4",
     "list.highlightForeground": "#93a1a1",
     "list.inactiveFocusBackground": "#243d46",
+    "list.dropBackground": "#292a2e",
     // editorGroupHeader
     "editorGroupHeader.tabsBackground": "#292a2e",
     "editorGroup.border": "#27282c",
+    "scrollbarSlider.background": "#27282c",
+    "scrollbarSlider.activeBackground": "#243d46",
+    "scrollbarSlider.hoverBackground": "#243d46aa",
     // editorWidget
     "editorWidget.border": "#555",
     "editorWidget.background": "#27282c",
