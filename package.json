@@ -1,0 +1,21 @@
+{
+  "name": "seabear-theme",
+  "displayName": "SeaBear-theme",
+  "description": "",
+  "version": "0.0.1",
+  "engines": {
+    "vscode": "^1.78.0"
+  },
+  "categories": [
+    "Themes"
+  ],
+  "contributes": {
+    "themes": [
+      {
+        "label": "SeaBear",
+        "uiTheme": "vs-dark",
+        "path": "./themes/seabear-theme-color-theme.json"
+      }
+    ]
+  }
+}
